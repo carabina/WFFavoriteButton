@@ -1,6 +1,10 @@
 # WFFavoriteButton
 A nice favorite button with pop
 
+
+![screen_record~](http://o7cso12y9.bkt.clouddn.com/ezgif.com-video-to-gif%20%281%29.gif
+)
+
 ### Usage
     WFPopButton *buttonTrack = [[WFPopButton alloc] initWithStyle:WFPopButtonStyleTrack];
     buttonTrack.frame = CGRectMake(100, 200, 60, 60);
