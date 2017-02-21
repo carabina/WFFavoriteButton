@@ -1,6 +1,6 @@
 //
-//  WFPopButton.h
-//  TenderLike
+//  WFFavoriteButton.h
+//  WFFavoriteButton
 //
 //  Created by jwfstars on 15/1/8.
 //  Copyright (c) 2015年 jwfstars. All rights reserved.
@@ -8,13 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-typedef NS_ENUM(NSUInteger, WFPopButtonStyle) {
-    WFPopButtonStyleShake,
-    WFPopButtonStyleTrack,
+typedef NS_ENUM(NSUInteger, WFFavoriteButtonStyle) {
+    WFFavoriteButtonStyleShake,
+    WFFavoriteButtonStyleTrack,
 };
 
-@interface WFPopButton : UIButton
-- (instancetype)initWithStyle:(WFPopButtonStyle)style;
+@interface WFFavoriteButton : UIButton
+- (instancetype)initWithStyle:(WFFavoriteButtonStyle)style;
 
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;

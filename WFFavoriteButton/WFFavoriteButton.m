@@ -1,21 +1,21 @@
 //
-//  WFPopButton.m
-//  TenderLike
+//  WFFavoriteButton.m
+//  WFFavoriteButton
 //
 //  Created by jwfstars on 15/1/8.
 //  Copyright (c) 2015年 jwfstars. All rights reserved.
 //
 
-#import "WFPopButton.h"
+#import "WFFavoriteButton.h"
 #import <pop/POP.h>
 
-@interface WFPopButton()
-@property (nonatomic, assign) WFPopButtonStyle style;
+@interface WFFavoriteButton()
+@property (nonatomic, assign) WFFavoriteButtonStyle style;
 @end
 
-@implementation WFPopButton
+@implementation WFFavoriteButton
 
-- (instancetype)initWithStyle:(WFPopButtonStyle)style
+- (instancetype)initWithStyle:(WFFavoriteButtonStyle)style
 {
     self = [super initWithFrame:CGRectZero];
     if (self) {
@@ -28,23 +28,23 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        self.style = WFPopButtonStyleTrack;
+        self.style = WFFavoriteButtonStyleTrack;
     }
     return self;
 }
 
-- (void)setStyle:(WFPopButtonStyle)style
+- (void)setStyle:(WFFavoriteButtonStyle)style
 {
     _style = style;
     
-    if (style == WFPopButtonStyleTrack) {
+    if (style == WFFavoriteButtonStyleTrack) {
         self.adjustsImageWhenHighlighted = NO;
     }
 }
 
 - (void)setHighlighted:(BOOL)highlighted
 {
-    if (self.style == WFPopButtonStyleTrack) {
+    if (self.style == WFFavoriteButtonStyleTrack) {
         
     }else {
         [super setHighlighted:highlighted];
@@ -59,7 +59,7 @@
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated completionBlock:(dispatch_block_t)completionBlock
 {
     if (animated) {
-        if (self.style == WFPopButtonStyleShake) {
+        if (self.style == WFFavoriteButtonStyleShake) {
             [super setSelected:selected];
             if (selected) {
                 [self outsideAnimationOnComplete:completionBlock];
@@ -109,7 +109,7 @@
 {
     [super beginTrackingWithTouch:touch withEvent:event];
     
-    if (self.style == WFPopButtonStyleTrack) {
+    if (self.style == WFFavoriteButtonStyleTrack) {
         POPSpringAnimation *scale = [self pop_animationForKey:@"scale"];
         if (scale) {
             scale.toValue = [NSValue valueWithCGPoint:CGPointMake(0.7, 0.7)];
@@ -128,7 +128,7 @@
 {
     [super endTrackingWithTouch:touch withEvent:event];
     
-    if (self.style == WFPopButtonStyleTrack) {
+    if (self.style == WFFavoriteButtonStyleTrack) {
         POPSpringAnimation *scale = [self pop_animationForKey:@"scale"];
         if (scale) {
             scale.toValue = [NSValue valueWithCGPoint:CGPointMake(1.0, 1.0)];

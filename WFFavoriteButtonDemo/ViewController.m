@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "WFPopButton.h"
+#import "WFFavoriteButton.h"
 
 @interface ViewController ()
 
@@ -19,13 +19,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    WFPopButton *buttonTrack = [[WFPopButton alloc] initWithStyle:WFPopButtonStyleTrack];
+    WFFavoriteButton *buttonTrack = [[WFFavoriteButton alloc] initWithStyle:WFFavoriteButtonStyleTrack];
     buttonTrack.frame = CGRectMake(100, 200, 60, 60);
     [buttonTrack setImage:[UIImage imageNamed:@"heart"] forState:UIControlStateNormal];
     [buttonTrack setTitle:@"track" forState:UIControlStateNormal];
     [self.view addSubview:buttonTrack];
     
-    WFPopButton *buttonShake = [[WFPopButton alloc] initWithStyle:WFPopButtonStyleShake];
+    WFFavoriteButton *buttonShake = [[WFFavoriteButton alloc] initWithStyle:WFFavoriteButtonStyleShake];
     buttonShake.frame = CGRectMake(100, 300, 60, 60);
     [buttonShake setImage:[UIImage imageNamed:@"heart_gray"] forState:UIControlStateNormal];
     [buttonShake setImage:[UIImage imageNamed:@"heart"] forState:UIControlStateSelected];
@@ -34,7 +34,7 @@
     [self.view addSubview:buttonShake];
 }
 
-- (void)onTapShakeButton:(WFPopButton *)sender
+- (void)onTapShakeButton:(WFFavoriteButton *)sender
 {
     [sender setSelected:!sender.isSelected animated:YES];
 }
