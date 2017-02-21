@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EEB1A6EDB747B9463B850C9 /* libPods-WFFavoriteButtonDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ECD4F10B04E01468D4A52C8 /* libPods-WFFavoriteButtonDemo.a */; };
+		9A88BA4C1E5C85AF00EC00A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A88BA4B1E5C85AF00EC00A6 /* main.m */; };
+		9A88BA4F1E5C85AF00EC00A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A88BA4E1E5C85AF00EC00A6 /* AppDelegate.m */; };
+		9A88BA521E5C85AF00EC00A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A88BA511E5C85AF00EC00A6 /* ViewController.m */; };
+		9A88BA551E5C85AF00EC00A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A88BA531E5C85AF00EC00A6 /* Main.storyboard */; };
+		9A88BA571E5C85AF00EC00A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A88BA561E5C85AF00EC00A6 /* Assets.xcassets */; };
+		9A88BA5A1E5C85AF00EC00A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A88BA581E5C85AF00EC00A6 /* LaunchScreen.storyboard */; };
+		9A88BA641E5C85CC00EC00A6 /* WFPopButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A88BA631E5C85CC00EC00A6 /* WFPopButton.m */; };
+		9A88BA661E5C8C4A00EC00A6 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A88BA651E5C8C4A00EC00A6 /* heart.png */; };
+		9A88BA681E5C8C6C00EC00A6 /* heart_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A88BA671E5C8C6C00EC00A6 /* heart_gray.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2ECD4F10B04E01468D4A52C8 /* libPods-WFFavoriteButtonDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WFFavoriteButtonDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F047DE9DE6A875E4D1431C1 /* Pods-WFFavoriteButtonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WFFavoriteButtonDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WFFavoriteButtonDemo/Pods-WFFavoriteButtonDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9A88BA471E5C85AF00EC00A6 /* WFFavoriteButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WFFavoriteButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A88BA4B1E5C85AF00EC00A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A88BA4D1E5C85AF00EC00A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A88BA4E1E5C85AF00EC00A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A88BA501E5C85AF00EC00A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9A88BA511E5C85AF00EC00A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9A88BA541E5C85AF00EC00A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A88BA561E5C85AF00EC00A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A88BA591E5C85AF00EC00A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A88BA5B1E5C85AF00EC00A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A88BA621E5C85CC00EC00A6 /* WFPopButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFPopButton.h; sourceTree = "<group>"; };
+		9A88BA631E5C85CC00EC00A6 /* WFPopButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFPopButton.m; sourceTree = "<group>"; };
+		9A88BA651E5C8C4A00EC00A6 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		9A88BA671E5C8C6C00EC00A6 /* heart_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart_gray.png; sourceTree = "<group>"; };
+		D0FFB9B1BC0BCD3DF5236349 /* Pods-WFFavoriteButtonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WFFavoriteButtonDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WFFavoriteButtonDemo/Pods-WFFavoriteButtonDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A88BA441E5C85AF00EC00A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EEB1A6EDB747B9463B850C9 /* libPods-WFFavoriteButtonDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		337A46B2D52CAE377476C524 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2ECD4F10B04E01468D4A52C8 /* libPods-WFFavoriteButtonDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4610E9E38D8795CBD892E871 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0FFB9B1BC0BCD3DF5236349 /* Pods-WFFavoriteButtonDemo.debug.xcconfig */,
+				6F047DE9DE6A875E4D1431C1 /* Pods-WFFavoriteButtonDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9A88BA3E1E5C85AF00EC00A6 = {
+			isa = PBXGroup;
+			children = (
+				9A88BA611E5C85C200EC00A6 /* WFFavoriteButton */,
+				9A88BA491E5C85AF00EC00A6 /* WFFavoriteButtonDemo */,
+				9A88BA481E5C85AF00EC00A6 /* Products */,
+				4610E9E38D8795CBD892E871 /* Pods */,
+				337A46B2D52CAE377476C524 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9A88BA481E5C85AF00EC00A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A88BA471E5C85AF00EC00A6 /* WFFavoriteButtonDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A88BA491E5C85AF00EC00A6 /* WFFavoriteButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9A88BA4D1E5C85AF00EC00A6 /* AppDelegate.h */,
+				9A88BA4E1E5C85AF00EC00A6 /* AppDelegate.m */,
+				9A88BA501E5C85AF00EC00A6 /* ViewController.h */,
+				9A88BA511E5C85AF00EC00A6 /* ViewController.m */,
+				9A88BA531E5C85AF00EC00A6 /* Main.storyboard */,
+				9A88BA561E5C85AF00EC00A6 /* Assets.xcassets */,
+				9A88BA581E5C85AF00EC00A6 /* LaunchScreen.storyboard */,
+				9A88BA5B1E5C85AF00EC00A6 /* Info.plist */,
+				9A88BA4A1E5C85AF00EC00A6 /* Supporting Files */,
+			);
+			path = WFFavoriteButtonDemo;
+			sourceTree = "<group>";
+		};
+		9A88BA4A1E5C85AF00EC00A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A88BA671E5C8C6C00EC00A6 /* heart_gray.png */,
+				9A88BA651E5C8C4A00EC00A6 /* heart.png */,
+				9A88BA4B1E5C85AF00EC00A6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A88BA611E5C85C200EC00A6 /* WFFavoriteButton */ = {
+			isa = PBXGroup;
+			children = (
+				9A88BA621E5C85CC00EC00A6 /* WFPopButton.h */,
+				9A88BA631E5C85CC00EC00A6 /* WFPopButton.m */,
+			);
+			path = WFFavoriteButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A88BA461E5C85AF00EC00A6 /* WFFavoriteButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A88BA5E1E5C85AF00EC00A6 /* Build configuration list for PBXNativeTarget "WFFavoriteButtonDemo" */;
+			buildPhases = (
+				FBD4ED9DF07DE4919B93F467 /* [CP] Check Pods Manifest.lock */,
+				9A88BA431E5C85AF00EC00A6 /* Sources */,
+				9A88BA441E5C85AF00EC00A6 /* Frameworks */,
+				9A88BA451E5C85AF00EC00A6 /* Resources */,
+				449CC81B08E17FE26C971E25 /* [CP] Embed Pods Frameworks */,
+				A694C2CCCE5BD0228C92D8A5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WFFavoriteButtonDemo;
+			productName = WFFavoriteButtonDemo;
+			productReference = 9A88BA471E5C85AF00EC00A6 /* WFFavoriteButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A88BA3F1E5C85AF00EC00A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "江文帆";
+				TargetAttributes = {
+					9A88BA461E5C85AF00EC00A6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = FGHN8DYJP5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9A88BA421E5C85AF00EC00A6 /* Build configuration list for PBXProject "WFFavoriteButtonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A88BA3E1E5C85AF00EC00A6;
+			productRefGroup = 9A88BA481E5C85AF00EC00A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A88BA461E5C85AF00EC00A6 /* WFFavoriteButtonDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A88BA451E5C85AF00EC00A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A88BA661E5C8C4A00EC00A6 /* heart.png in Resources */,
+				9A88BA5A1E5C85AF00EC00A6 /* LaunchScreen.storyboard in Resources */,
+				9A88BA571E5C85AF00EC00A6 /* Assets.xcassets in Resources */,
+				9A88BA551E5C85AF00EC00A6 /* Main.storyboard in Resources */,
+				9A88BA681E5C8C6C00EC00A6 /* heart_gray.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		449CC81B08E17FE26C971E25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WFFavoriteButtonDemo/Pods-WFFavoriteButtonDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A694C2CCCE5BD0228C92D8A5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WFFavoriteButtonDemo/Pods-WFFavoriteButtonDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBD4ED9DF07DE4919B93F467 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A88BA431E5C85AF00EC00A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A88BA641E5C85CC00EC00A6 /* WFPopButton.m in Sources */,
+				9A88BA521E5C85AF00EC00A6 /* ViewController.m in Sources */,
+				9A88BA4F1E5C85AF00EC00A6 /* AppDelegate.m in Sources */,
+				9A88BA4C1E5C85AF00EC00A6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9A88BA531E5C85AF00EC00A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A88BA541E5C85AF00EC00A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A88BA581E5C85AF00EC00A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A88BA591E5C85AF00EC00A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A88BA5C1E5C85AF00EC00A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9A88BA5D1E5C85AF00EC00A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A88BA5F1E5C85AF00EC00A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0FFB9B1BC0BCD3DF5236349 /* Pods-WFFavoriteButtonDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FGHN8DYJP5;
+				INFOPLIST_FILE = WFFavoriteButtonDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wfapp.WFFavoriteButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A88BA601E5C85AF00EC00A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F047DE9DE6A875E4D1431C1 /* Pods-WFFavoriteButtonDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FGHN8DYJP5;
+				INFOPLIST_FILE = WFFavoriteButtonDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wfapp.WFFavoriteButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A88BA421E5C85AF00EC00A6 /* Build configuration list for PBXProject "WFFavoriteButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A88BA5C1E5C85AF00EC00A6 /* Debug */,
+				9A88BA5D1E5C85AF00EC00A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A88BA5E1E5C85AF00EC00A6 /* Build configuration list for PBXNativeTarget "WFFavoriteButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A88BA5F1E5C85AF00EC00A6 /* Debug */,
+				9A88BA601E5C85AF00EC00A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A88BA3F1E5C85AF00EC00A6 /* Project object */;
+}
